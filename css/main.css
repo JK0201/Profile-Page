@@ -1,0 +1,106 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    height: 100vh;
+    background-color: #f7f9fc;
+}
+
+.bg-gray {
+    width: 100%;
+}
+
+.bg-card {
+    border-radius: 7px;
+    margin: 0 auto;
+    box-shadow: 0.5px 0.5px 2px 1px #eee;
+    background-color: white;
+}
+
+.c-blue {
+    color: #6fbaf8;
+}
+
+.profile-img {
+    width: 100%;
+    max-width: 12rem;
+    border-radius: 50%;
+}
+
+.know-img {
+    width: 100%;
+    max-width: 5.1rem;
+    max-height: 5.1rem;
+    border-radius: 50%;
+}
+
+.profile-name {
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.profile-body {
+    font-size: 1.2rem;
+}
+
+.profile-type {
+    font-size: 1.6rem;
+    font-weight: bold;
+    width: 12rem;
+}
+
+.profile-info {
+    font-size: 1.6rem;
+}
+
+.custom-btn {
+    border: none;
+    border-radius: 5px;
+    padding: 0.7rem 2rem;
+    background-color: #6fbaf8;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    transition: background-color 0.2s;
+}
+
+.custom-btn:hover {
+    background-color: #40a9ff;
+}
+
+.custom-btn:active {
+    background-color: #6fbaf8;
+}
+
+.skill-tags {
+    display: inline-block;
+    font-size: 1.2rem;
+    border: 1px solid gray;
+    border-radius: 1.5rem;
+    margin-bottom: .7rem;
+}
+
+.w-max {
+    max-width: 600px;
+}
+
+.w-20 {
+    width: 20%;
+    max-width: 10rem;
+    cursor: pointer;
+}
+
+.f-5rem {
+    font-size: 5rem;
+}
+
+.cur-pointer {
+    cursor: pointer;
+}
+
+@media screen and (max-width:768px) {
+    .display-none {
+        display: none;
+    }
+}
